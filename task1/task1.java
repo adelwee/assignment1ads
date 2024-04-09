@@ -28,6 +28,7 @@ public class task1 {
         // Print the result and the time taken
         System.out.println("The minimum element is: " + min);
         System.out.println("Time taken: " + duration + " milliseconds");
+
     }
 }
 
