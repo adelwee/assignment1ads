@@ -9,8 +9,17 @@ public class task4 {
 
     public static void main(String[] args) {
         int n = 5;
-        int result = factorial(n);
+
+        // Measure execution time of factorial function
+        double startTime = System.nanoTime();
+        int result = factorial(n); // Call factorial function with test case value
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1000000; // Convert to milliseconds
+
+        // Print the result and the time taken
         System.out.println(n + "! = " + result);
+        System.out.println("Time taken: " + duration + " milliseconds");
     }
 }
+
 

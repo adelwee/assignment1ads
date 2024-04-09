@@ -16,14 +16,20 @@ public class task7 {
     public static void main(String[] args) {
         int[] arr = {1, 4, 6, 2};
 
-        // Call the reverse function with start index 0 and end index n-1
-        reverse(arr, 0, arr.length - 1);
+        // Measure execution time of reverse function
+        double startTime = System.nanoTime();
+        reverse(arr, 0, arr.length - 1); // Call reverse function with array
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1000000; // Convert to milliseconds
 
         // Print the reversed array
         System.out.println("Reversed array:");
         for (int num : arr) {
             System.out.print(num + " ");
         }
+
+        System.out.println("\nTime taken: " + duration + " milliseconds");
     }
 }
+
 

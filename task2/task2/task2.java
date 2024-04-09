@@ -14,7 +14,16 @@ public class task2 {
 
     public static void main(String[] args) {
         int[] numbers = {3, 2, 4};
-        double average = calculateAverage(numbers);
+
+        // Measure execution time of calculateAverage function
+        double startTime = System.nanoTime();
+        double average = calculateAverage(numbers); // Call calculateAverage function with test case value
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1000000; // Convert to milliseconds
+
+        // Print the result and the time taken
         System.out.println("The average of the elements is: " + average);
+        System.out.println("Time taken: " + duration + " milliseconds");
     }
 }
+

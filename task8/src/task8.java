@@ -22,5 +22,12 @@ public class task8 {
 
         System.out.println(s1 + " " + (isAllDigits(s1) ? "Yes" : "No"));
         System.out.println(s2 + " " + (isAllDigits(s2) ? "Yes" : "No"));
+
+        // Measure execution time of isAllDigits function
+        double startTime = System.nanoTime();
+        isAllDigits(s1); // Call isAllDigits function with test case value
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1000000; // Convert to milliseconds
+        System.out.println("Time taken: " + duration + " milliseconds");
     }
 }
