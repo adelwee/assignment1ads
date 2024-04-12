@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ads.iml" filepath="$PROJECT_DIR$/ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/defense1/defense1.iml" filepath="$PROJECT_DIR$/defense1/defense1.iml" />
       <module fileurl="file://$PROJECT_DIR$/task10/task10.iml" filepath="$PROJECT_DIR$/task10/task10.iml" />
       <module fileurl="file://$PROJECT_DIR$/task2/task2.iml" filepath="$PROJECT_DIR$/task2/task2.iml" />
       <module fileurl="file://$PROJECT_DIR$/task3/task3.iml" filepath="$PROJECT_DIR$/task3/task3.iml" />
