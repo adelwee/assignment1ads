@@ -1,21 +1,17 @@
-public static class main1 {
-    int counter;
-    String a;
-
-}
-public void getCounter() {
-    if(main1) {
-        getCounter();
-        int a= 5;
-
-
+public class main1 {
+    public static void main(String[] args) {
+        String str = "abraka dabra";
+        char char = 'a';
+        int count = count(str, char);
+        System.out.println(char  + count);
     }
-    return counter;
 
-}
-def counter(word,char){
+    public static int count(String str, char targetChar) {
+        if (str.length() == 0) {
+            return 0;
+        }
 
-}
+
 
 /*we have string,using recursive
 abraka dabra, how many times a showed  in these words
