@@ -1,15 +1,15 @@
 public class main1 {
     public static void main(String[] args) {
         String str = "abraka dabra";
-        char char = 'a';
-        int count = count(str, char);
-        System.out.println(char  + count);
+        char chr = 'a';
+        int count = count(str, chr);
+        System.out.println(chr  + count);
     }
 
-    public static int count(String str, char targetChar) {
+    public static int count(String str, char chr) {
         if (str.length() == 0) {
             return 0;
-        }
+        };
 
 
 
